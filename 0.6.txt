@@ -1,0 +1,7 @@
+note over browser:
+SPA page uses POST request and recieves modified data.json file
+Other files remain unaffected.
+end note
+browser->server:HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+server-->browser: [{"content":"chess","date":"2022-06-20T03:40:02.328Z...]
