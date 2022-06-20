@@ -11,4 +11,4 @@ server-->browser: main.js
 
 
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
-server-->browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
+server-->browser: [{ content: "HTML is easy", date: "2022-06-20" }, ...]
